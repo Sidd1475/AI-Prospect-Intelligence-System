@@ -1,0 +1,3 @@
+# data/.gitkeep
+# This file exists so that the data/ directory is tracked by git.
+# Do not commit prospects.db, *.csv, or other generated files here.

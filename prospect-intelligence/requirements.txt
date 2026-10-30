@@ -1,0 +1,29 @@
+# Core UI
+streamlit>=1.35.0
+
+# Data validation
+pydantic>=2.7.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Data manipulation and export
+pandas>=2.2.0
+
+# Web search
+tavily-python>=0.3.0
+
+# LLM providers (only the configured one is used at runtime)
+google-genai>=1.0.0
+anthropic>=0.28.0
+openai>=1.30.0
+
+# HTTP with timeout support (also used internally by the Anthropic SDK)
+httpx>=0.27.0
+
+# Bounded retry with exponential backoff
+tenacity>=8.3.0
+
+# Testing
+pytest>=8.2.0
+pytest-mock>=3.14.0
